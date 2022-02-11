@@ -21,7 +21,7 @@ function mylist(){
     var txt=document.createTextNode(mytxt);
     li.appendChild(txt);
     if(mytxt==""){
-        alert("Field is empty")
+        alert("enter any text")
     }else{
         document.getElementById("myul").appendChild(li);
     }
