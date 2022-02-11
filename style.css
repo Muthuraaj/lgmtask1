@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("WhatsApp\ Image\ 2022-02-11\ at\ 11.49.07\ AM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1{
+    padding:10px;
+    text-align: center;
+    font-style:italic;
+    color:burlywood;
+    font-size: 50px;
+}
+header{
+    
+    height:60px;
+}
+main{
+    width:500px;
+    height:550px;
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 30px;
+    margin:50px auto;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+form{
+    margin:20px;
+}
+#mytext{
+    height:30px;
+    margin-right:30px;
+    padding:0 30px;
+    font-size:20px;
+    font-style: italic;
+
+}
+ul{
+    width:100%;
+    background-color:khaki;
+    list-style:none;
+}
+ul li{
+    padding:10px;
+    position:relative;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+#addbtn{
+  
+    color:rgb(5, 19, 37);
+    background-color: rgb(80, 43, 43);
+    padding:5px;
+    font-style: italic;
+}
+#addbtn:hover{
+    cursor:pointer;
+    background-color:rgb(245, 153, 14);
+}
+
+    
+.close{
+    position:absolute;
+    top:0;
+    right:0;
+    padding:10px;
+    cursor: pointer;
+}
+.close:hover{
+    background-color:rgb(245, 153, 14);
+}
